@@ -1029,6 +1029,25 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 /*--------------------------------------------------------------
+# Stream Section
+--------------------------------------------------------------*/
+#stream {
+  padding: 60px 0 60px 0;
+}
+
+#stream img {
+  filter: brightness(50%);
+}
+
+#stream .overlay {
+  position: relative;
+}
+
+#stream .overlay img { display: block; }
+
+#stream .overlay .fa-play { position: absolute; bottom: 50%; left: 45% }
+
+/*--------------------------------------------------------------
 # Hotels Section
 --------------------------------------------------------------*/
 #hotels {
